@@ -1,0 +1,22 @@
+POST http://localhost:5000/users
+
+{
+    "full_name": "Zac Oyama",
+    "email": "zoyama@gmail.com",
+    "username": "zac.oyama",
+    "password": "asdawr2sd"
+}
+
+###
+GET http://localhost:5000/users
+Content-Type: application/json
+
+###
+POST http://localhost:5000/messages/1
+
+{
+    "text": "Im funny!"
+}
+
+###
+GET http://localhost:5000/messages
